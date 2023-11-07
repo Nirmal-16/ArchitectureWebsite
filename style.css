@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    height:15vh;
+}
+nav .container{
+    display: flex;
+}
+.nav-item{
+    font-variant: small-caps;
+    letter-spacing: 1px;
+}
+.bgcontainer{
+    background-color: rgb(223, 223, 223);
+}
+.eighteen{
+    font-size:80px;
+    color:rgb(195, 195, 195);
+    font-weight: bolder;
+}
+.image{
+    box-sizing: border-box;
+}
+.tag{
+    display: flex;
+    flex-direction:column;
+    text-align: end;
+    border-right:10px solid black;
+}
+.exp{
+    font-size:23px;
+    font-weight:490;
+}
+.breadcrumb-item{
+    margin-top: 10px;
+    font-size:19px;
+}
+
+.blog2,.blog1{
+    height: 60vh;
+    background-image: url(blog3.webp);
+    background-size: cover;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
+.blog1{
+    height: 60vh;
+    margin-top: 30px;
+    background-image: url("table-stylist-studio.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-size: 100%;
+}
+.blog2{
+    height: 60vh;
+    margin-top: 30px;
+    background-image: url("pine-leaves-bouquet-classy-decorated-table.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-size: 100%;
+}
+.imageblogbox{
+    border:15px solid black;
+    width:25vw;
+    height:28vh;
+    position: relative;
+    top:-30px;
+    font-size: 13px;
+    background-color: rgba(0, 0, 0, 0.559);
+    color:white;
+}
+.imageblogbox h3{
+    font-size: 13px;
+    font-weight: bolder;
+}
+.footerbread li{
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 490px) {
+    /* For small screens: */
+    .image,.content{
+        padding-top:20px;
+    }
+    .tag{
+        margin-top:10px;
+        border:14px solid rgb(0, 0, 0);
+    }
+    .blog2{
+        /* position: relative; */
+        height: 60vh;
+        background-image: url("pine-leaves-bouquet-classy-decorated-table.jpg");
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .imageblogbox{
+        visibility: hidden;
+    }
+    .footerlink li{
+        font-size:13px;
+    }
+    .copyright{
+        font-size:13px;
+        margin-top: 20px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-self:center;
+    }
+
+  }
+
